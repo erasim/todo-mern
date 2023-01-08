@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const {JWT_SECRET, ATLAS_URI} = require('./config/keys')
  
 const Record = (props) => (
  <tr>
@@ -26,7 +25,7 @@ export default function RecordList() {
  // This method fetches the records from the database.
  useEffect(() => {
    async function getRecords() {
-     const response = await fetch(ATLAS_URI`/record/`);
+     const response = await fetch(`http://localhost:10000/record/`);
  
      if (!response.ok) {
        const message = `An error occurred: ${response.statusText}`;
