@@ -76,7 +76,7 @@ export default function RecordList() {
      <table className="table table-striped" style={{ marginTop: 20 }}>
        <thead>
          <tr>
-           <th>Name</th>
+           <th>Name-1</th>
            <th>Position</th>
            <th>Level</th>
            <th>Action</th>
