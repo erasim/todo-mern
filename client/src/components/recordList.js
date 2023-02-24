@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; 
 
-const url= window.location.origin;
+const url= "https://todo-0r69.onrender.com/";
 console.log(url);
 const Record = (props) => (
 
